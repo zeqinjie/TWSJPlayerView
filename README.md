@@ -16,6 +16,18 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```
+public class TWSJPlayerViewConfigure: NSObject {
+    /// 是否展示关闭按钮
+    public var isShowClose: Bool = false
+    /// 进度条颜色
+    public var progressColor: UIColor = .orange
+    /// 背景色
+    public var backgroundColor: UIColor = .black
+    /// 是否自动播放
+    public var isAutoPlay: Bool = true
+}
+
+
 fileprivate func clickAction(_ btn: UIButton) {
         let dvc: TWSJPlayerViewController = TWSJPlayerViewController()
         let configure = TWSJPlayerViewConfigure()
