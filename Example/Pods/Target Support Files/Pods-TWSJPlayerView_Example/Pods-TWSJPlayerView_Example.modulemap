@@ -1,0 +1,6 @@
+framework module Pods_TWSJPlayerView_Example {
+  umbrella header "Pods-TWSJPlayerView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
