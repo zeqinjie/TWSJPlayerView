@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 基于 SJVideoPlayer & M3U8Kit  封装 m3u8 视频播放
                        DESC
 
-  s.homepage         = 'https://github.com/zhengzeqin/TWSJPlayerView'
+  s.homepage         = 'https://github.com/zeqinjie/TWSJPlayerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhengzeqin' => 'zhengzeqin@addcn.com' }
-  s.source           = { :git => 'https://github.com/zhengzeqin/TWSJPlayerView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zeqinjie/TWSJPlayerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         let dvc: TWSJPlayerViewController = TWSJPlayerViewController()
         let configure = TWSJPlayerViewConfigure()
         configure.isShowClose = true
-        configure.isAutoPlay = false
+//        configure.isAutoPlay = false
         dvc.configure = configure
         dvc.actionBlock = { (type, vc) in
             switch type {
