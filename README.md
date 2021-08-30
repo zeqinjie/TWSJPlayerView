@@ -11,6 +11,10 @@
 > - 目前支持 360, 480, 720P 等资源判断
 > - 目前支持播放自定义控制，比如进度条颜色等
 
+
+
+![图片](https://github.com/zeqinjie/TWSJPlayerView/blob/master/assets/1.png)
+
 ## Demo
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
